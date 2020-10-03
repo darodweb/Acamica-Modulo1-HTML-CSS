@@ -168,6 +168,7 @@ h2 {
 .oradores {
   border-radius: 5%;
   width: 100%;
+  max-width: 250px;
   height: auto;
   padding: 0.5rem;
   margin: 1rem;

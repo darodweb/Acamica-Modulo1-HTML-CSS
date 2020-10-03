@@ -1,0 +1,100 @@
+@media screen and (min-width: 330px) {
+ 
+    .home-body {
+        display:block;
+        overflow-x: hidden;
+    }
+
+    .header-image-como-llegar, .header-image-sponsors, .header-image-oradores, .header-image {
+        display:none;
+    }
+
+  
+    .col-1-oradores {
+        padding: 0;
+     }
+
+     .card {
+         display:block;
+         margin-bottom: 45px;
+     }
+
+     .card-container {
+         text-align: center;
+         display: block;
+         
+     }
+
+     .col-2 {
+         margin-right: 0;
+         padding: 0;
+     }
+
+     aside {
+         margin: 20px;
+     }
+
+     .oradores {
+         margin: 0;
+         border-radius: 10%;
+     }
+
+     .map-large {
+         display:none;
+     }
+
+    figure {
+        margin-left: 0;
+    }
+    
+ }
+
+ @media screen and (min-width: 600px) {
+ 
+    .header-image-como-llegar, .header-image-sponsors, .header-image-oradores, .header-image {
+        display:block;
+    }
+
+    .home-body {
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    
+
+       .col-1-oradores {
+        padding: 25px 50px;
+     }
+
+     .card {
+        display:inline-flex;
+     }
+
+     .card-container {
+        justify-content: center;
+         display:flex;
+         
+     }
+
+     .col-2 {
+         margin-right: 0;
+         padding: 0;
+     }
+
+   
+     .oradores {
+         margin: 1rem;
+         border-radius: 10%;
+     }
+
+     .map-mobile {
+        display:none;
+    }
+
+    .map-large {
+        display:block;
+        margin-left:10%;
+    
+    }
+ }
+

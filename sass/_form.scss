@@ -1,0 +1,26 @@
+#formulario {
+    margin-bottom: 15px;
+    box-shadow: 5px 5pxs gray;
+    text-align: center;
+}
+
+input {
+    margin-top: 15px;
+    padding: 10px;
+    width: 80%;
+    box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.062);
+
+    &:not([type=submit]) {
+        border: 2px rgba(128, 128, 128, 0.877);  
+    }
+}
+
+p {
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+aside {
+    border: 3px solid #02025ed0;
+    padding: 20px;
+}

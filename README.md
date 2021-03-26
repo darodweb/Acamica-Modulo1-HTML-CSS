@@ -1,3 +1,3 @@
-##Static website using HTML and CSS.
+##Static website using HTML and SASS.
 
 
